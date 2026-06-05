@@ -77,7 +77,7 @@ export default function BrowseProducts() {
           <View style={styles.productRight}>
             <Text style={styles.productPrice}>${item.price.toFixed(2)}</Text>
             <Text style={styles.productUnit}>/{item.unit}</Text>
-            <Text style={styles.productStock}>Stock: {item.stockQty}</Text>
+            {/* <Text style={styles.productStock}>Stock: {item.stockQty}</Text> */}
           </View>
         </View>
         {qty === 0 ? (
